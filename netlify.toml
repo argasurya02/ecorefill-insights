@@ -4,4 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  
+  NITRO_PRESET = "netlify-static"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
